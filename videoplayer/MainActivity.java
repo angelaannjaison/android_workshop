@@ -14,7 +14,7 @@ import android.widget.VideoView;
 public class MainActivity extends AppCompatActivity {
 
     VideoView vv;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 vv.setVideoURI(uri);
                 vv.requestFocus();
                 vv.start();
-
 
 
     }
