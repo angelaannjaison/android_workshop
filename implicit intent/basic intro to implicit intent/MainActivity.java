@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
 {
-
     Button b;
     //EditText et;
     @Override
