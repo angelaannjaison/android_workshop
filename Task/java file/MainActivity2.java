@@ -3,10 +3,10 @@ package com.example.andproj;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
+import android.content.Context;//note this lib,the right lib might not grt imported
 import android.content.DialogInterface;
 import android.media.MediaPlayer;
-import android.widget.MediaController;//if error comes check  this lib
+import android.widget.MediaController;//if error comes at 49,50th line,note down this lib,as the cause of error might come from importing the wrong lib
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
